@@ -302,7 +302,10 @@
         <div class="col-sm-12 d-flex justify-content-center">
           <a href="http://www.hukukrehberi.net/" target="_blank" > <img class="mt-5 hkk-img" src="img/pexels-madison-inouye-1577882.jpg" alt="" width="330" >
           </a>
+          
         </div>
+        <p class="text-center ml-4 text-danger">Fotoğrafı Tıklayın...
+        </p>
       </div>
       
   
@@ -334,7 +337,21 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
     --> 
 
-   
+    <script type="text/javascript">
+        
+      var baslik = document.title;
+      var yeniBaslik = " (: Bizi Unutma :)";
+  
+      window.onblur = function(){
+          document.title = yeniBaslik;
+      }
+  
+      window.onfocus = function()
+      {
+          document.title = baslik;
+      }
+          
+  </script>
   </body>
 
 </html>
