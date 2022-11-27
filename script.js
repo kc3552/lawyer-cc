@@ -19,10 +19,10 @@ window.onblur = function () { document.title = alttitle; };
 window.onfocus = function () { document.title = title; };
 
 
-4
-5
+function displayMenu(){
+        var link=document.getElementById("nav-b");
+        link.classList.toggle("responsive");
+}
  
-$(document).ready(function(){
-    $('[data-toggle="tooltip"]').tooltip(); 
-});
+
 
